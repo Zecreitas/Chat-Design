@@ -1,0 +1,78 @@
+#chat{
+    margin-top: -20vw;
+    display: flex;
+    flex-direction: column;
+    border : 4px solid #131111ee;
+    border-radius: 70px;
+    margin: 8vw 10vw;
+    width: 80vw;
+    height: 45rem;
+    background-color: #f4f4f4ee;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.84);
+}
+#coment{
+    margin: 2vw 10vw 0vw 3vw;
+    font-size: 0.8rem;
+    font-family: Lexend;
+    color: #ffffff;
+    text-align: start;
+    background-color:#1E1E1E;
+    border-radius: 30px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+#userComent{
+    margin: 3vw 2vw 0vw 10vw;
+    font-size: 0.8rem;
+    font-family: Lexend;
+    color: #ffffff;
+    text-align: start;
+    background-color:#434343e0;
+    border-radius: 30px;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+h2{
+    font-size: 1rem;
+}
+.tempo{
+    padding-right:1vw;
+}
+#escrita{
+    padding-left: 2vw;
+    width: 90%;
+    border-radius: 20px;
+    height: 4rem;
+    font-size: 1.2rem;
+    font-family: Lexend;
+    color: #1E1E1E;
+    text-align: start;
+    background-color:#f4f4f4ee;
+    margin-top: 12vw;
+}
+#escrita:hover{
+    cursor: pointer;
+    background-color: #131111ee;
+    color: #f4f4f4ee;
+}
+.send{
+    width: 3.5rem;
+    height: auto;
+    margin-right: 6rem;
+    margin-top: -6.5rem;
+}
+.send:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .send{
+        visibility: hidden;
+    }
+    #escrita{
+        margin-top: 18rem;
+        width: 18rem;
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+    }
+}

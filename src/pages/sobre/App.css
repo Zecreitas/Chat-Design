@@ -1,0 +1,29 @@
+body {
+  background-color: #4F4343;
+}
+.App{
+    background-color: #4F4343;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  #titulo{
+    margin-top: 5vw;
+    font-size: 2.5rem;
+    margin-bottom: 6vw;
+    font-family: Lexend;
+  } 
+  #descricao{
+    font-size: 20px;
+    margin: 1vw 5vw;
+    text-align: justify;
+    font-family: Lexend;
+  }
+#info{
+    font-size: 20px;
+    margin: 1vw 5vw;
+    text-align: justify;
+    font-family: Lexend;
+}
