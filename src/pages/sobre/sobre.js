@@ -6,7 +6,7 @@ function sobre() {
       <div class="container text-center">
         <div class="row">
         <div class="col-4 text-start">
-          <a href={"/"} id='icon'><img src={arrow} className="arrow" alt="arrow"/></a>
+          <a href={"/login"} id='icon'><img src={arrow} className="arrow" alt="arrow"/></a>
         </div>
           <div class="col">
             <h1 id='titulo'>Sobre</h1>

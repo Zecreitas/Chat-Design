@@ -20,7 +20,7 @@ function Salas() {
   };
 
   const closeJanela = () => {
-    navigate('/');
+    navigate('/login');
     setJanelaOpen(false);
     setSenha('');  
   };
@@ -39,7 +39,7 @@ function Salas() {
     <div class="App">
       <div class="row">
         <div class="col-4 text-start">
-          <a href={"/"} id='icon'><img src={arrow} className="arrow" alt="arrow"/></a>
+          <a href={"/login"} id='icon'><img src={arrow} className="arrow" alt="arrow"/></a>
         </div>
         <div class="col-4 text-center">
           <h1 id ='tit'>Salas</h1>

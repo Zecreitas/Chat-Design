@@ -5,6 +5,7 @@ import App from './pages/login/App';
 import Sobre from './pages/sobre/sobre';
 import Salas from './pages/salas/salas';
 import Sala from './pages/sala/sala';
+import Logo from './pages/logo/logo';
 import reportWebVitals from './reportWebVitals';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -12,6 +13,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Logo/>
+  },
+  {
+    path: "/login",
     element: <App/>
   },
   {
