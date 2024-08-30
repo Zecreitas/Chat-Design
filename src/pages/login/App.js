@@ -12,7 +12,7 @@ function App() {
           </div>
         </div>
         <div class="row">
-          <div class="col"> 
+          <div class="col text-center"> 
             <img src={logo} className="App-logo" alt="logo" />
           </div>
         </div>
