@@ -7,7 +7,7 @@ function App() {
     <div class="App">
       <div class="container text-center">
         <div class="row text-end">
-          <div class="col text-center">
+          <div class="col">
           <a href={"/sobre"} id='icon'><img src={sobre} className="sobre" alt="sobre"/></a>
           </div>
         </div>
