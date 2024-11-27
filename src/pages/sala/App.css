@@ -66,7 +66,7 @@ h2{
     height: 4rem;
     align-items: center;
     border-radius: 20px;
-    margin-top: 15vw;
+    margin-top: 3vw;
 }
 
 .send:hover{
@@ -91,13 +91,16 @@ h2{
   
     #escrita {
       width: calc(100% - 4rem);
-      margin-top: 2rem;
       font-size: 1rem;
     }
   
     .send {
       width: 3rem;
-      margin-top: -5rem;
+      margin-top: -15.3rem;
+      visibility: visible;
+    }
+    #buttonSend{
+        visibility: hidden;
     }
   }
   

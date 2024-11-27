@@ -132,16 +132,20 @@ function Salas() {
 
   return (
     <div className="App">
-      <div className="row">
-        <div className="col-4 text-start">
-          <a href={"/login"} id='icon'><img src={arrow} className="arrow" alt="arrow"/></a>
-        </div>
-        <div className="col-4 text-center">
-          <h1 id ='tit'>Salas</h1>
-        </div>
-        <div className="col-4 text-end">
-          <a href={"/sobre"} id='icon'><img src={sobre} className="sobre" alt="sobre"/></a>
-        </div>
+      <div className="row align-items-center mt-5">
+          <div className="col-4 text-start">
+              <a href="/login" id="icon">
+                  <img src={arrow} className="arrow" alt="Voltar" />
+              </a>
+          </div>
+          <div className="col-4 text-center">
+              <h1 id="tit">Salas</h1>
+          </div>
+          <div className="col-4 text-end">
+              <a href="/sobre" id="icon">
+                  <img src={sobre} className="sobre" alt="Sobre" />
+              </a>
+          </div>
       </div>
       <div className="container" id='salas'>
         <div className="row">
